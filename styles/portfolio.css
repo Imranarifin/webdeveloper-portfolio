@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .text-primary{
     color:rgb(76, 215, 215);
@@ -37,4 +38,15 @@ color: white;
 font-weight: 700;
 padding: 15px 35px;
 align-items: center;
+}
+.header{
+    background-color: rgb(230, 234, 117);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
