@@ -78,6 +78,10 @@ font-weight: 400;
 }
 
 /*main*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*about section*/
 .about{
     padding: 130px;
@@ -95,4 +99,11 @@ font-weight: 400;
     color: rgb(61, 152, 117);
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
